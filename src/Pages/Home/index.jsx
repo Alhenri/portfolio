@@ -15,8 +15,8 @@ const StyledMain = Styled.main`
 
   section{
     height: auto;
-    width: 80%;
-    padding: 20px;
+    width: 100%;
+    padding: 15px;
     border-radius: 15px;
     margin-bottom: 25px;
     margin-top: 25px;
