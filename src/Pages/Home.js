@@ -1,10 +1,12 @@
 import React from 'react';
-import Header from '../Components/Header'
+import PageDefault from '../Components/PageDefault'
 
 function App() {
   return (
     <>
-      <Header />
+      <PageDefault>
+        Teste
+      </PageDefault>
     </>
   );
 }
