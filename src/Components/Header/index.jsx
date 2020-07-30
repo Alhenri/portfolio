@@ -7,6 +7,7 @@ const StyleHead = styled.header`
     background-color: rgba(255, 255, 255, 0.116);
     border-radius: 15px;
 
+    position: fixed;
     height: 65px;
     width: 90%;
     padding: 10px;
@@ -28,6 +29,7 @@ const StyleHead = styled.header`
         padding: 2px 10px;
         display: inline-block;
     }
+
 `
 
 function Header(){

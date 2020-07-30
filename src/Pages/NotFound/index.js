@@ -10,6 +10,8 @@ const StyledSection = Styled.section`
   background-color: rgba(255, 255, 255, 0.26);
   padding: 10px;
   border-radius: 15px;
+
+  margin-top: 102px;
   margin-bottom: 25px;
 `
 

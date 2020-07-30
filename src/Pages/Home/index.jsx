@@ -4,6 +4,7 @@ import MeImage from './assets/me.png'
 import Styled from 'styled-components'
 
 const StyledMain = Styled.main`
+  margin-top: 102px;
   width: 70%;
   display: flex;
   flex-direction: column;

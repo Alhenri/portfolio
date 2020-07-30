@@ -11,6 +11,8 @@ const StyledMain = Styled.main`
   align-items: center;
   padding: 10px;
   border-radius: 15px;
+
+  margin-top: 102px;
   margin-bottom: 25px;
   
   section{
