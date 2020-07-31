@@ -6,7 +6,7 @@ import EmailLogo from './assets/email.svg'
 
 const FooterBase = styled.footer`
 
-    background-color: rgba(255, 255, 255, 0.250);
+    background-color: rgba(255, 255, 255, 0.400);
     display: flex;
     justify-content: space-between;
     height: auto;
@@ -15,6 +15,8 @@ const FooterBase = styled.footer`
     border-radius: 15px;
     padding: 0px 25px;
     margin-bottom: 30px;
+    color: black;
+
 `;
 
 function Footer() {

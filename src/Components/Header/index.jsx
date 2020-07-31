@@ -4,7 +4,7 @@ import Logo from './assets/computador.svg'
 import styled from "styled-components"
 
 const StyleHead = styled.header`
-    background-color: rgba(255, 255, 255, 0.116);
+    background-color: rgba(255, 255, 255, 0.400);
     border-radius: 15px;
 
     position: fixed;
@@ -13,6 +13,7 @@ const StyleHead = styled.header`
     padding: 10px;
     margin-bottom: 30px;
     margin-top: 10px;
+    color: black;
 
     display: flex;
     align-items: center;

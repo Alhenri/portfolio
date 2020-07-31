@@ -18,10 +18,11 @@
   body {
     margin: 0;
     padding: 0;
-    background-image: url(https://images.pexels.com/photos/4064432/pexels-photo-4064432.jpeg?cs=srgb&dl=aventura-facanha-ceu-nublado-campo-4064432.jpg&fm=jpg);
+    /* background-image: url(https://images.pexels.com/photos/4064432/pexels-photo-4064432.jpeg?cs=srgb&dl=aventura-facanha-ceu-nublado-campo-4064432.jpg&fm=jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background-color: black;
 }
 @media (max-width: 382px) {
   body{

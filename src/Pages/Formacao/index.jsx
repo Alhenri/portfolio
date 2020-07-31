@@ -5,19 +5,19 @@ import IFPELogo from './assets/ifpe-logo.png'
 import UFPELogo from './assets/ufpe-logo.png'
 
 const StyledMain = Styled.main`
-  width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px;
   border-radius: 15px;
+  background-color: (0,0,0,0);
 
   margin-top: 102px;
   margin-bottom: 25px;
   
   section{
     height: auto;
-    width: 100%;
+    width: 70%;
     padding: 25px;
     border-radius: 15px;
     margin-bottom: 25px;
@@ -25,11 +25,11 @@ const StyledMain = Styled.main`
   }
 
   section#ifpe{
-    background-color: rgba(173, 252, 127, 0.37);
+    background-color: rgba(183, 235, 127, 0.600);
   }
 
   section#ufpe{
-    background-color: rgba(252, 127, 127, 0.37);
+    background-color: rgba(252, 127, 127, 0.600);
   }
 
   p {
@@ -39,17 +39,18 @@ const StyledMain = Styled.main`
   }
 `
 
+
 function Formacao(){
     return(
         <PageDefault>
             <StyledMain>
                 <section id="ifpe">
-                    <img src={IFPELogo} height="150" alt=""/>
+                    <img src={IFPELogo} width="80%" alt=""/>
                     <p>♦ Ensino médio (2016 - 2019)</p>
                     <p>♦ Técnico em eletrônica (2016 - 2019)</p>
                 </section>
                 <section id="ufpe">
-                    <img src={UFPELogo} height="150" alt=""/>
+                    <img src={UFPELogo} width="80%" alt=""/>
                     <p>♦ Engenharia da computação (2020 - Agora)</p>
                 </section>
             </StyledMain>

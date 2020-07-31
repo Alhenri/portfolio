@@ -9,6 +9,7 @@ const StyledPage = Styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: white;
     `
 
 

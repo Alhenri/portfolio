@@ -33,7 +33,7 @@ function Home() {
     <>
       <PageDefault>
         <StyledMain>
-          <img src={MeImage} height="250"/>
+          <img src={MeImage} width="80%"/>
 
           <section className="text">
               <p>
