@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from './assets/computador.svg'
 import styled from "styled-components"
+import Button from '../../Components/Button'
 
 const StyleHead = styled.header`
     background-color: rgba(255, 255, 255, 0.400);
@@ -19,18 +20,40 @@ const StyleHead = styled.header`
     align-items: center;
     justify-content: space-between;
 
-    nav ul{
+    nav {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    nav a:hover{
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    /* nav ul{
+        height: 100%;
+        width: 100%;
+        margin: 0;
         list-style: none;
         display: flex;
         justify-content: space-between;
+        padding: 0;
+    }
+
+    nav ul li{
+        margin-left: 5px;
+        height: 25px;
+        transition: 0.5s;
+    }
+    
+    nav ul li:hover {
+        background-color: rgba(255, 255, 255, 0.700);
     }
 
     nav ul li a { 
         text-decoration: none; 
         padding: 2px 10px;
         display: inline-block;
-    }
-
+    } */
 `
 
 function Header(){
@@ -40,11 +63,9 @@ function Header(){
                     <img src={Logo} height="50"/>
                 </Link>
                 <nav id="menu">
-                    <ul>
-                        <li><Link to="/">Sobre mim</Link></li>
-                        <li><Link to="/Projetos">Projetos</Link></li>
-                        <li><Link to="/Formação">Formação</Link></li>
-                    </ul>
+                    <Button to="/">Sobre mim</Button>
+                    <Button to="/Projetos">Projetos</Button>
+                    <Button to="/Formação">Formação</Button>
                 </nav>
         </StyleHead>
     )

@@ -14,6 +14,10 @@ const StyledMain = Styled.main`
   border-radius: 15px;
   margin-bottom: 25px;
 
+  img{
+    width: 80%;
+    max-width: 350px;
+  }
   section{
     height: auto;
     width: 100%;
@@ -33,7 +37,7 @@ function Home() {
     <>
       <PageDefault>
         <StyledMain>
-          <img src={MeImage} width="80%"/>
+          <img src={MeImage}/>
 
           <section className="text">
               <p>

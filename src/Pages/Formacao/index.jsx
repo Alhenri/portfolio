@@ -14,7 +14,13 @@ const StyledMain = Styled.main`
 
   margin-top: 102px;
   margin-bottom: 25px;
+  width: 90%;
   
+  img{
+    width: 80%;
+    max-width: 350px;
+  }
+
   section{
     height: auto;
     width: 70%;
