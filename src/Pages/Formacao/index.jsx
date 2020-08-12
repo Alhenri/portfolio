@@ -31,17 +31,18 @@ const StyledMain = Styled.main`
   }
 
   section#ifpe{
-    background-color: rgba(183, 235, 127, 0.600);
+    background-color: rgba(183, 235, 127, 1);
   }
 
   section#ufpe{
-    background-color: rgba(252, 127, 127, 0.600);
+    background-color: rgba(252, 127, 127, 1);
   }
 
   p {
     margin-top: 25px;
     font-family: Courier, monospace;
     text-align: justify;
+    color:black;
   }
 `
 

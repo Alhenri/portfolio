@@ -3,40 +3,70 @@
     font-family: 'Roboto', sans-serif;
   }
   
-  :root {
-    --primary: #2A7AE4;
-    --black: #000000;
-    --blackLighter: #9E9E9E;
-    --grayLight: #F5F5F5;
-    --grayMedium: #e5e5e5; 
-    --white: #FFFFFF;
-    --frontEnd: #6BD1FF;
-    --backEnd: #00C86F;
-  }
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* background-image: url(https://images.pexels.com/photos/4064432/pexels-photo-4064432.jpeg?cs=srgb&dl=aventura-facanha-ceu-nublado-campo-4064432.jpg&fm=jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-attachment: fixed; */
+
   
-  html,
-  body {
-    margin: 0;
-    padding: 0;
-    /* background-image: url(https://images.pexels.com/photos/4064432/pexels-photo-4064432.jpeg?cs=srgb&dl=aventura-facanha-ceu-nublado-campo-4064432.jpg&fm=jpg);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-attachment: fixed; */
-    background-color: black;
+  background: rgb(14,11,22);
+  background: linear-gradient(0deg, rgba(14,11,22,1) 21%, rgba(162,57,202,1) 53%, rgba(71,23,246,1) 100%);
+
+  /* background: rgb(110,54,103);
+  background: linear-gradient(35deg, rgba(110,54,103,1) 25%, rgba(136,211,23,1) 53%, rgba(26,3,21,1) 83%); */
+
+  /* background: rgb(153,211,223);
+  background: linear-gradient(0deg, rgba(153,211,223,1) 23%, rgba(136,187,214,1) 45%, rgba(205,205,205,1) 72%); */
 }
+
+@media (max-width: 800px){
+  div.awssld__content div{
+    flex-direction: column;
+  }
+  div#root main.slideClass{
+    height: 150vh;
+  }
+
+  div.awssld__content div section.img{
+    padding: 0;
+    height: auto;
+  }
+}
+
 @media (max-width: 382px) {
   body{
     background-size: auto 100%;
   }
-} 
-  
-  a {
-    color: inherit;
+
+  header img{
+    visibility: hidden;
   }
-  
-  #root {
+
+  div#root main.slideClass{
+    height: 200vh;
+  }
+
+  footer{
     display: flex;
     flex-direction: column;
-    flex: 1;
-    justify-content: space-between;
   }
+}
+
+h1 {
+  color: #e9d970;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+}

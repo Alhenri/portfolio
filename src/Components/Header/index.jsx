@@ -5,10 +5,11 @@ import styled from "styled-components"
 import Button from '../../Components/Button'
 
 const StyleHead = styled.header`
-    background-color: rgba(255, 255, 255, 0.400);
+    background-color: rgba(255, 255, 255, 0.600);
     border-radius: 15px;
 
     position: fixed;
+    z-index: 3;
     height: 65px;
     width: 90%;
     padding: 10px;

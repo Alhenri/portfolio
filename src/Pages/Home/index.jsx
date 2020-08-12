@@ -9,7 +9,7 @@ const StyledMain = Styled.main`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.26);
+  background-color: rgba(255, 255, 255, 0.600);
   padding: 10px;
   border-radius: 15px;
   margin-bottom: 25px;
@@ -29,6 +29,7 @@ const StyledMain = Styled.main`
   p {
     font-family: Courier, monospace;
     text-align: justify;
+    color:black;
   }
 `
 
@@ -39,7 +40,7 @@ function Home() {
         <StyledMain>
           <img src={MeImage}/>
 
-          <section className="text">
+          <section>
               <p>
                   Meu nome é Alexandre Henrique Soares da Silva Filho,
                   sou pernambucano nascido no ano de 2001 em Recife. Cursei todo meu ensino médio e técnico em eletrônica 

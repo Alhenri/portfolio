@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Slider from '../../Components/Carousel'
 
 const StyledMain = styled.main`
-    width: 100%;
+    width: 90%;
     margin-top: 102px;
     height: 80vh;
     margin-bottom:38px;
@@ -14,7 +14,7 @@ const StyledMain = styled.main`
 function Projetos(){
     return(
         <PageDefault>
-            <StyledMain>
+            <StyledMain className="slideClass">
                <Slider />
             </StyledMain>
         </PageDefault>
