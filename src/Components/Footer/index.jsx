@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import InstaLogo from './assets/instagram.svg'
 import EmailLogo from './assets/email.svg'
+import githubIcon from './assets/github.svg'
 
 const FooterBase = styled.footer`
 
@@ -24,7 +25,11 @@ function Footer() {
           <img src={InstaLogo} alt="Instagram: " height="20px"/>
           <label htmlFor="img">@alhenri_soares</label>
       </a>
-
+      
+      <a href="https://github.com/Alhenri" target="_blank">
+          <img src={githubIcon} alt="" height="20px"/>
+          <label htmlFor="img">Github</label>
+      </a>
       <a href="">
           <img src={EmailLogo} alt="Gmail: " height="15px"/>
           <label htmlFor="img">ahssf@cin.ufpe.br</label>

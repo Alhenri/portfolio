@@ -6,6 +6,8 @@ import snctimg from './assets/snct2019.jpeg'
 import kdetimg from './assets/KDET.png'
 import fliximg from './assets/reactflix.png'
 import reactimg from './assets/reactimg.png'
+import circuitoimg from './assets/circuito.jpeg'
+import githubIcon from './assets/github.svg'
 
 function Slider() {
     return(
@@ -13,6 +15,7 @@ function Slider() {
             <div>
                 <section className="img">
                     <img src={kdetimg} alt=""/>
+                    <img src={circuitoimg} alt="" />
                 </section>
                 <section className="text">
                     <h1>Projeto de hardware e educação</h1>
@@ -46,7 +49,11 @@ function Slider() {
                         O frontend está hospedado na vercel, enquanto o backend está na heroku e é responsável por enviar o
                         arquivo JSON que agrega o conteúdo.
                        <a href="https://reactflix-mu.vercel.app" target="_blank">Visitar site.</a>
-                       <a href="#" target="_blank"></a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/Alhenri/ReactFlix" target="_blank">
+                           <img src={githubIcon} alt="" height="25px"/>Github
+                       </a>
                     </p>
                 </section>
             </div>
@@ -81,7 +88,9 @@ function Slider() {
                         dos componentes do site. Ele ainda se encontra em desenvolvimento e está hospedado na vercel.
                     </p>
                     <p>
-                       <a href>Github</a>
+                        <a href="https://github.com/Alhenri/Portfolio" target="_blank">
+                            <img src={githubIcon} height="25px" alt=""/>Github
+                        </a>
                     </p>
                 </section>
             </div>
