@@ -20,15 +20,16 @@ function Slider() {
                 <section className="text">
                     <h1>Projeto de hardware e educação</h1>
                     <p>
-                        O projeto KDET, na qual faço parte junto com outros 3 estudates e 2 professores orientadores,
-                        é uma bolsa PIBEX ofertada pelo IFPE-Recife. Seu princiapal objetivo é apresentar a instituição
-                        e o curso de telecomunicações para as escolas publicas e incentivar novos profissionais a seguir na área.
+                        No IFPE faço parte do projeto KDET que conta com a participação de três pesquisadores e dois 
+                        professores orientadores. Nosso principal objetivo é apresentar nossa instituição e o curso de 
+                        telecomunicações a alunos do ensino médio de outras escolas com a finalidade de incentiva-los a 
+                        seguir carreira na área.
                     </p>
                     <p>
-                        Meu papel na equipe foi responsável por desenvolver a parte de hardware e firmware dos kits que
-                        serão apresentados na aula. Como também a elaboração de roteiros sobre conceitos de eletrônica
-                        e telecomunicações. 
-                       <a href="#">Ver mais.</a>
+                        Meu papel na equipe era desenvolver os circuitos eletrônicos dos kits didáticos que darão apoio às aulas. 
+                        Com isso, foi possível aprimorar meus conhecimentos de programação, hardware e redes, além de aprender 
+                        conceitos de telecomunicações e evoluir a minha didática de ensino.  
+                    <a href="#">Ver mais.</a>
                     </p>
                 </section>
             </div>
@@ -71,8 +72,9 @@ function Slider() {
                         O projeto realizado por mim e mais 4 integrantes visava desenvolver um plano de negócios para uma
                         empresa de automação residencial idealizada por nós, a Hexagon.
                         Além da pesquisa e construção do hardware, no caso, um sistema de irrigação automático,
-                        houve muita pesquisa de mercado, fornecedores, concorrentes para avaliar a taxa de sucesso do empreendimento.
-                        <a href>Ver mais.</a>
+                        houve muita pesquisa de mercado, fornecedores e concorrentes para avaliar a taxa de sucesso do 
+                        empreendimento.
+                        <a href="#">Ver mais.</a>
                     </p>
                 </section>
             </div>
