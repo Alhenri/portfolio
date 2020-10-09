@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import AwesomeSlider from 'react-awesome-slider'
 import 'react-awesome-slider/dist/styles.css'
 import styles from './style.css'
@@ -29,7 +30,7 @@ function Slider() {
                         Meu papel na equipe era desenvolver os circuitos eletrônicos dos kits didáticos que darão apoio às aulas. 
                         Com isso, foi possível aprimorar meus conhecimentos de programação, hardware e redes, além de aprender 
                         conceitos de telecomunicações e evoluir a minha didática de ensino.  
-                    <a href="#">Ver mais.</a>
+                    <Link to='/'>Ver mais.</Link>
                     </p>
                 </section>
             </div>
