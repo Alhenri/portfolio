@@ -30,7 +30,7 @@ function Slider() {
                         Meu papel na equipe era desenvolver os circuitos eletrônicos dos kits didáticos que darão apoio às aulas. 
                         Com isso, foi possível aprimorar meus conhecimentos de programação, hardware e redes, além de aprender 
                         conceitos de telecomunicações e evoluir a minha didática de ensino.  
-                    <Link to='/'>Ver mais.</Link>
+                    <a href="https://www.youtube.com/playlist?list=PLMzWw6fh54Z_nF5NtbNWCphCr78MknrxL" target="_blank">Ver mais.</a>
                     </p>
                 </section>
             </div>
