@@ -51,8 +51,8 @@ function Home() {
                 em saber como as coisas funcionavam de fato. Hoje em dia, além do amor por matemática e física, também 
                 gosto de programar, de pesquisar e criar coisas. Escolhi cursar engenharia da computação por ser muito 
                 próximo dos meus interesses atuais. Na área de software sou fascinado por inteligência artificial, visão 
-                computacional, segurança da informação e arquitetura de software (minha linguagem de programação favorita 
-                é python e depois C). Em hardware, eu gosto muito de criar coisas, projetar circuitos e programar 
+                computacional, segurança da informação e arquitetura de software (minhas linguagens de programação favoritas 
+                são typescript, python e C). Em hardware, eu gosto muito de criar coisas, projetar circuitos e programar 
                 microcontroladores junto com sensores e atuadores. Tenho certa experiência com hardware por causa da minha 
                 formação como técnico em eletrônica, o que me ajuda bastante a por minhas ideias no mundo real. 
               </p>
